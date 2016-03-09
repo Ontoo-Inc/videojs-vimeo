@@ -77,7 +77,7 @@ THE SOFTWARE. */
       this.iframe.setAttribute('allowFullScreen', '0');
 
       var divWrapper = document.createElement('div');
-      divWrapper.setAttribute('style', 'margin:0 auto;padding-bottom:56.25%;width:100%;height:0;position:relative;overflow:hidden;');
+      divWrapper.setAttribute('style', 'margin:0 auto;width:100%;height:100%;position:relative;overflow:hidden;');
       divWrapper.setAttribute('class', 'vimeoFrame');
       divWrapper.appendChild(this.iframe);
 
